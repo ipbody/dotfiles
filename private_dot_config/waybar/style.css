@@ -1,0 +1,205 @@
+@import "./themes/mocha.css";
+
+/* Global */
+* {
+  font-family: "FiraCode Nerd Font";
+  /* font-family: "MesloLG Nerd Font"; */
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  /* transition-property: background-color; */
+  /* transition-duration: 0.5s; */
+}
+
+/* @keyframes blink_red {
+  to {
+    background-color: @red;
+    color: @base;
+  } */
+/* } */
+/* 
+.warning, .critical, .urgent {
+  animation-name: blink_red;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+} */
+
+/* Bar */
+window#waybar {
+  background-color: rgba(0, 0, 0, 0);
+  /* background-color: @base; */
+}
+
+#mode, #workspaces, #clock, #memory, #temperature, #cpu, #custom-weather,
+#mpris, #idle_inhibitor, #backlight, #pulseaudio, #network, 
+#battery, #custom-powermenu, #custom-cava-internal,
+#custom-launcher, #tray, #disk, #custom-pacman, #custom-scratchpad-indicator {
+  background-color: @base;
+  color: @base;
+  padding-left: .1rem;
+  padding-right: .1rem;
+  border-left: .6rem solid @base;
+  border-right: .6rem solid @base;
+  margin-top: 5px;
+}
+
+#custom-launcher, #custom-powermenu, #idle_inhibitor {
+  padding-right: .4rem;
+}
+
+#custom-launcher {
+  margin-left: 5px;
+}
+
+#custom-powermenu {
+  margin-right: 5px;
+}
+
+
+/* window > box {
+  background-color: transparent;
+  margin: .3rem;
+  margin-bottom: 0;
+} */
+
+
+/* Workspaces */
+/* #workspaces:hover {
+  background-color: @green;
+}
+
+#workspaces button {
+  padding-right: .4rem;
+  padding-left: .4rem;
+  padding-top: .1rem;
+  padding-bottom: .1rem;
+  color: @red;
+  background: transparent;
+}
+
+#workspaces button.active {
+  color: @blue;
+}
+
+#workspaces button:hover {
+  color: @rosewater;
+} */
+
+#workspaces button {
+  box-shadow: none;
+  text-shadow: none;
+  padding: 0px;
+  border-radius: 9px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-right: 0px;
+  color: @text;
+  /* animation: ws_normal 20s ease-in-out 1; */
+}
+
+#workspaces button.active {
+  background: @subtext0;
+  background-color: @subtext0;
+  color: @surface0;
+  margin-left: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-right: 3px;
+  /* animation: ws_active 20s ease-in-out 1;
+  transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682); */
+}
+
+#workspaces button:hover {
+  background: @pink;
+  background-color: @pink;
+  color: @surface0;
+  /* animation: ws_hover 20s ease-in-out 1;
+  transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682); */
+}
+
+/* Tooltip */
+tooltip {
+  background-color: @base;
+}
+
+tooltip label {
+  color: @rosewater;
+}
+
+/* battery */
+#battery {
+  color: @mauve;
+  /* background-color: @mauve;
+  color: @base; */
+}
+#battery.full {
+  color: @green;
+  /* background-color: @green;
+  color: @base; */
+}
+#battery.charging{
+  color: @teal;
+  /* background-color: @teal; */
+  /* color: @base; */
+}
+#battery.discharging {
+  color: @peach;
+  /* background-color: @peach; */
+  /* color: @base; */
+}
+#battery.critical:not(.charging) {
+  color: @pink;
+  /* background-color: @pink;
+  color: @base; */
+}
+#custom-powermenu {
+  color: @red;
+  /* background-color: @red;
+  color: @base; */
+}
+
+#mpris.paused {
+  color: @pink;
+}
+#mpris.stopped {
+  color: @rosewater;
+  /* background: transparent; */
+}
+#mpris {
+  color: @lavender;
+}
+/* Extra */
+#custom-launcher {
+  color: @yellow;
+}
+#memory {
+  color: @peach;
+}
+#cpu {
+  color: @blue;
+}
+#clock {
+  color: @rosewater;
+}
+#idle_inhibitor {
+  color: @green;
+}
+#temperature {
+  color: @sapphire;
+}
+#backlight {
+  color: @green;
+}
+#pulseaudio {
+  color: @mauve;  /* not active */
+}
+#disk {
+  color: @maroon;
+}
+#tray {
+  background-color: @base;
+}
