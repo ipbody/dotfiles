@@ -1,0 +1,77 @@
+# System packages
+vim
+neovim
+stow
+dust
+zip
+unrar
+git
+wget
+firefox
+kitty
+zsh
+starship
+neofetch
+wev
+psmisc
+btop
+blueman
+network-manager-applet
+tailscale
+xdg-user-dirs
+polkit-kde-agent
+qt6-wayland
+qt5-wayland
+wl-clipboard
+grim
+slurp
+gnome-keyring
+kvantum
+cliphist
+syncthing
+
+# Hyprland
+waybar
+hyprpaper
+hyprlock
+hypridle
+nwg-look
+
+# Files
+yazi
+zoxide
+fd
+ripgrep
+fzf
+ouch
+ffmpegthumbnailer
+tlp
+brightnessctl 
+
+# Internet
+discord
+
+# Audio
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+easyeffects
+pavucontrol
+
+# Pdf viewer
+evince
+
+# Image
+inkscape
+gimp
+feh
+
+# Video
+
+# Work
+
+# Torrent
+qbittorrent
+
+# Games
+steam
