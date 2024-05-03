@@ -15,14 +15,14 @@
     "clock",
   ],
   "modules-right": [
-    {{- if eq .chezmoi.hostname "work-laptop" }}
+    {{- if eq .chezmoi.hostname "vivobook" }}
     "backlight",
     {{- end }}
     "temperature",
     "disk",
     "memory",
     "cpu",
-    {{- if eq .chezmoi.hostname "work-laptop" }}
+    {{- if eq .chezmoi.hostname "vivobook" }}
     "battery",
     {{- end }}
     "tray",
