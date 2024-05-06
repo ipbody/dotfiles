@@ -19,7 +19,7 @@ blueman
 network-manager-applet
 tailscale
 xdg-user-dirs
-polkit-kde-agent
+polkit-gnome
 qt6-wayland
 qt5-wayland
 wl-clipboard
