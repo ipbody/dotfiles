@@ -31,7 +31,7 @@ edit = [
 	{ run = 'code -w "%*"', block = true,  desc = "code (block)", for = "windows" },
 ]
 open = [
-	{ run = 'xdg-open "$@" &',                desc = "Open", for = "linux" },
+	{ run = 'xdg-open "$@"',                desc = "Open", for = "linux" },
 	{ run = 'open "$@"',                    desc = "Open", for = "macos" },
 	{ run = 'start "" "%1"', orphan = true, desc = "Open", for = "windows" },
 ]
@@ -53,6 +53,9 @@ play = [
 [open]
 rules = [
 	{ name = "*/", use = [ "edit", "open", "reveal" ] },
+
+	# Docx
+	{ name = "*.docx", use = [ "open", "reveal" ] },
 
 	{ mime = "text/*",  use = [ "edit", "reveal" ] },
 	{ mime = "image/*", use = [ "open", "reveal" ] },
