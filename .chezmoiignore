@@ -9,5 +9,5 @@ backups/   # ignore the backups folder, but not its contents
 backups/** # ignore the contents of backups folder but not the folder itself
 
 
-.oh-my-zsh/cache/completions/
-.oh-my-zsh/cache/grep-alias
+.oh-my-zsh/cache
+
