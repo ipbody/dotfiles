@@ -29,6 +29,7 @@ gnome-keyring
 kvantum
 cliphist
 syncthing
+power-profiles-daemon
 
 # Hyprland
 waybar
