@@ -15,14 +15,14 @@
     "clock",
   ],
   "modules-right": [
-    {{- if eq .chezmoi.hostname "vivobook" }}
+    {{- if eq .chezmoi.hostname "asus-tuf" }}
     "backlight",
     {{- end }}
     "temperature",
     "disk",
     "memory",
     "cpu",
-    {{- if eq .chezmoi.hostname "vivobook" }}
+    {{- if eq .chezmoi.hostname "asus-tuf" }}
     "battery",
     {{- end }}
     "tray",
@@ -120,7 +120,8 @@
     "format": "󰻠 {usage:2}%"
   },
   "temperature": {
-    "hwmon-path": "/sys/class/hwmon/hwmon0/temp1_input",
+    "hwmon-path-abs": "/sys/class/hwmon/",
+    "input-filename": "temp1_input",
     "critical-threshold": 80,
     "tooltip": false,
     "format": " {temperatureC}°C",
