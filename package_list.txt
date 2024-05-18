@@ -46,7 +46,6 @@ fzf
 ouch
 ffmpegthumbnailer
 tlp
-brightnessctl 
 
 # Internet
 discord
