@@ -2,12 +2,12 @@
 This repo holds the dotfiles to install hyprland on arch
 
 ## Installation
-1. Start with a fresh install of arch os with hyprland using archinstall.
-2. Copy this repo in the HOME folder and `cd` to the dotfiles:
+1. Start with a fresh install of arch linux.
+2. Use chezmoi to clone the repo :
     ```
     cd $HOME
-    git clone https://github.com/ipbody/dotfiles-cz
-    cd dotfiles-cz
+    chezmoi init git@github.com:ipbody/dotfiles.git
+    chezmoi cd
     ```
 5. Install all packages from the lists:
     ```
@@ -20,6 +20,6 @@ This repo holds the dotfiles to install hyprland on arch
     ```
 7. Use `chezmoi` to set dotfiles:
     ```
-    $ sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply git@github.com:ipbody/dotfiles-cz.git
+   chezmoi apply
     ```
  
