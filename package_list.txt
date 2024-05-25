@@ -1,8 +1,6 @@
 # System packages
 vim
 neovim
-stow
-dust
 zip
 unrar
 git
@@ -15,27 +13,11 @@ neofetch
 wev
 psmisc
 btop
-blueman
-network-manager-applet
 tailscale
-xdg-user-dirs
-polkit-gnome
-qt6-wayland
-qt5-wayland
-wl-clipboard
-grim
-slurp
-gnome-keyring
 kvantum
-cliphist
 syncthing
-power-profiles-daemon
 
 # Hyprland
-waybar
-hyprpaper
-hyprlock
-hypridle
 nwg-look
 
 # Files
@@ -46,25 +28,15 @@ ripgrep
 fzf
 ouch
 ffmpegthumbnailer
-tlp
 
 # Internet
 discord
 
-# Audio
-pipewire-alsa
-pipewire-jack
-pipewire-pulse
 easyeffects
-pavucontrol
 
-# Pdf viewer
-evince
 
-# Image
 inkscape
 gimp
-feh
 
 # Video
 
@@ -74,4 +46,3 @@ feh
 qbittorrent
 
 # Games
-steam
