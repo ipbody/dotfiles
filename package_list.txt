@@ -17,9 +17,6 @@ tailscale
 kvantum
 syncthing
 
-# Hyprland
-nwg-look
-
 # Files
 yazi
 zoxide

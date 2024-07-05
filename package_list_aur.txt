@@ -1,7 +1,6 @@
 anydesk-bin
 brave-bin
 catppuccin-gtk-theme-mocha
-celluloid-git
 droidcam
 gitkraken
 jellyfin-media-player
@@ -9,7 +8,6 @@ mcmojave-cursors
 onlyoffice-bin
 papirus-icon-theme
 pfetch-git
-protonmail-bridge-bin
 spotify
 ttf-ms-fonts
 vesktop-bin
