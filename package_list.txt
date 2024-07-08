@@ -38,6 +38,9 @@ gimp
 # Video
 
 # Work
+syncthing
+thunderbird
+protonmail-bridge
 
 # Torrent
 qbittorrent

@@ -1,12 +1,9 @@
 anydesk-bin
 brave-bin
-catppuccin-gtk-theme-mocha
 droidcam
 gitkraken
 jellyfin-media-player
-mcmojave-cursors
 onlyoffice-bin
-papirus-icon-theme
 pfetch-git
 spotify
 ttf-ms-fonts
